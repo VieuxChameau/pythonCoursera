@@ -55,3 +55,17 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+
+# Intellij
+.idea/
+*.iml
+*.iws
