@@ -1,10 +1,10 @@
-hrs = raw_input("Enter Hours:")
+hrs = input("Enter Hours:")
 h = float(hrs)
 
-rate = raw_input("Enter Rate:")
+rate = input("Enter Rate:")
 r = float(rate)
 
 if h <= 40:
-    print r * h
+	print(r * h)
 else:
-    print (40 * r) + ((h - 40) * r * 1.5)
+	print((40 * r) + ((h - 40) * r * 1.5))
